@@ -25,8 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e80936a-4bad-4d8d-91e7-e71a519c2f98" name="Default Changelist" comment="iterator/iterable">
+      <change afterPath="$PROJECT_DIR$/generator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/loop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +73,11 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Node.js.loop.js">
+  <component name="RunManager" selected="Node.js.generator.js">
     <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/es6/1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="generator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/generator.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
@@ -85,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.generator.js" />
         <item itemvalue="Node.js.loop.js" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="JavaScript Debug.1.html" />
@@ -105,7 +109,7 @@
       <workItem from="1590293122718" duration="120000" />
       <workItem from="1590293389238" duration="853000" />
       <workItem from="1590312276396" duration="1197000" />
-      <workItem from="1590313795537" duration="6739000" />
+      <workItem from="1590313795537" duration="7018000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1590292657401</created>
@@ -180,22 +184,22 @@
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
     <state x="1241" y="123" width="1205" height="1152" key="DiffContextDialog/0.23.2560.1353@0.23.2560.1353" timestamp="1590330230066" />
-    <state width="1100" height="387" key="GridCell.Tab.0.bottom" timestamp="1590444759856">
+    <state width="1100" height="387" key="GridCell.Tab.0.bottom" timestamp="1590445039167">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="1100" height="387" key="GridCell.Tab.0.bottom/0.23.2560.1353@0.23.2560.1353" timestamp="1590444759856" />
-    <state width="1100" height="387" key="GridCell.Tab.0.center" timestamp="1590444759856">
+    <state width="1100" height="387" key="GridCell.Tab.0.bottom/0.23.2560.1353@0.23.2560.1353" timestamp="1590445039167" />
+    <state width="1100" height="387" key="GridCell.Tab.0.center" timestamp="1590445039167">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="1100" height="387" key="GridCell.Tab.0.center/0.23.2560.1353@0.23.2560.1353" timestamp="1590444759856" />
-    <state width="1100" height="387" key="GridCell.Tab.0.left" timestamp="1590444759855">
+    <state width="1100" height="387" key="GridCell.Tab.0.center/0.23.2560.1353@0.23.2560.1353" timestamp="1590445039167" />
+    <state width="1100" height="387" key="GridCell.Tab.0.left" timestamp="1590445039167">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="1100" height="387" key="GridCell.Tab.0.left/0.23.2560.1353@0.23.2560.1353" timestamp="1590444759855" />
-    <state width="1100" height="387" key="GridCell.Tab.0.right" timestamp="1590444759856">
+    <state width="1100" height="387" key="GridCell.Tab.0.left/0.23.2560.1353@0.23.2560.1353" timestamp="1590445039167" />
+    <state width="1100" height="387" key="GridCell.Tab.0.right" timestamp="1590445039167">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="1100" height="387" key="GridCell.Tab.0.right/0.23.2560.1353@0.23.2560.1353" timestamp="1590444759856" />
+    <state width="1100" height="387" key="GridCell.Tab.0.right/0.23.2560.1353@0.23.2560.1353" timestamp="1590445039167" />
     <state width="1363" height="476" key="GridCell.Tab.1.bottom" timestamp="1590329341851">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>

@@ -49,9 +49,15 @@ let iterator  = iterable[Symbol.iterator]();
 // iter3.next();
 // for(const a of iter3) log(a);
 
-for(const a of document.querySelectorAll('*')) log(a);
-const all = document.querySelectorAll('*');
-let iter4 = all[Symbol.iterator]();
-log(iter4.next());
-log(iter4.next());
-log(iter4.next());
+// for(const a of document.querySelectorAll('*')) log(a);
+// const all = document.querySelectorAll('*');
+// let iter4 = all[Symbol.iterator]();
+// log(iter4.next());
+// log(iter4.next());
+// log(iter4.next());
+
+
+console.clear()
+const a = [1, 2];
+// a[Symbol.iterator] = null;
+log(...a, ...arr, ...set, ...map.keys())

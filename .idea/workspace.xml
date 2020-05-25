@@ -24,9 +24,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e80936a-4bad-4d8d-91e7-e71a519c2f98" name="Default Changelist" comment="first commit">
+    <list default="true" id="0e80936a-4bad-4d8d-91e7-e71a519c2f98" name="Default Changelist" comment="iterator/iterable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/loop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,7 @@
       <workItem from="1590293122718" duration="120000" />
       <workItem from="1590293389238" duration="853000" />
       <workItem from="1590312276396" duration="1197000" />
-      <workItem from="1590313795537" duration="5991000" />
+      <workItem from="1590313795537" duration="6739000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1590292657401</created>
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590293618591</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="iterator/iterable">
+      <created>1590360970680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590360970680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +164,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="iterator/iterable" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterator/iterable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1316" y="423" key="#1.html" timestamp="1590312703604">
@@ -173,22 +180,22 @@
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
     <state x="1241" y="123" width="1205" height="1152" key="DiffContextDialog/0.23.2560.1353@0.23.2560.1353" timestamp="1590330230066" />
-    <state width="1100" height="387" key="GridCell.Tab.0.bottom" timestamp="1590360555758">
+    <state width="1100" height="387" key="GridCell.Tab.0.bottom" timestamp="1590444759856">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="1100" height="387" key="GridCell.Tab.0.bottom/0.23.2560.1353@0.23.2560.1353" timestamp="1590360555758" />
-    <state width="1100" height="387" key="GridCell.Tab.0.center" timestamp="1590360555758">
+    <state width="1100" height="387" key="GridCell.Tab.0.bottom/0.23.2560.1353@0.23.2560.1353" timestamp="1590444759856" />
+    <state width="1100" height="387" key="GridCell.Tab.0.center" timestamp="1590444759856">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="1100" height="387" key="GridCell.Tab.0.center/0.23.2560.1353@0.23.2560.1353" timestamp="1590360555758" />
-    <state width="1100" height="387" key="GridCell.Tab.0.left" timestamp="1590360555758">
+    <state width="1100" height="387" key="GridCell.Tab.0.center/0.23.2560.1353@0.23.2560.1353" timestamp="1590444759856" />
+    <state width="1100" height="387" key="GridCell.Tab.0.left" timestamp="1590444759855">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="1100" height="387" key="GridCell.Tab.0.left/0.23.2560.1353@0.23.2560.1353" timestamp="1590360555758" />
-    <state width="1100" height="387" key="GridCell.Tab.0.right" timestamp="1590360555758">
+    <state width="1100" height="387" key="GridCell.Tab.0.left/0.23.2560.1353@0.23.2560.1353" timestamp="1590444759855" />
+    <state width="1100" height="387" key="GridCell.Tab.0.right" timestamp="1590444759856">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="1100" height="387" key="GridCell.Tab.0.right/0.23.2560.1353@0.23.2560.1353" timestamp="1590360555758" />
+    <state width="1100" height="387" key="GridCell.Tab.0.right/0.23.2560.1353@0.23.2560.1353" timestamp="1590444759856" />
     <state width="1363" height="476" key="GridCell.Tab.1.bottom" timestamp="1590329341851">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
@@ -241,10 +248,10 @@
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
     <state x="1344" y="338" key="SettingsEditor/0.23.2560.1353@0.23.2560.1353" timestamp="1590329861340" />
-    <state x="1204" y="521" key="Vcs.Push.Dialog.v2" timestamp="1590293639624">
+    <state x="1204" y="521" key="Vcs.Push.Dialog.v2" timestamp="1590360991661">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state x="1204" y="521" key="Vcs.Push.Dialog.v2/0.23.2560.1353@0.23.2560.1353" timestamp="1590293639624" />
+    <state x="1204" y="521" key="Vcs.Push.Dialog.v2/0.23.2560.1353@0.23.2560.1353" timestamp="1590360991661" />
     <state x="1620" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590293202428">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>

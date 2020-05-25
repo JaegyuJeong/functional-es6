@@ -34,13 +34,26 @@ function* odds(l) {
 }
 
 let iter2 = odds(10);
-log(iter2.next())
-log(iter2.next())
-log(iter2.next())
-log(iter2.next())
-log(iter2.next())
-log(iter2.next())
-log(iter2.next())
-log(iter2.next())
+// log(iter2.next())
+// log(iter2.next())
+// log(iter2.next())
+// log(iter2.next())
+// log(iter2.next())
+// log(iter2.next())
+// log(iter2.next())
+// log(iter2.next())
+//
+// for(const a of odds(40)) log(a)
 
-for(const a of odds(40)) log(a)
+// # for of, 전개연산자, 구조분해, 나머지 연산자
+
+log(...odds(10));
+log([...odds(10), ...odds(20)]);
+const [head, ...tail] = odds(5);
+log(head);
+log(tail);
+
+const [a, b, ...rest] = odds(10);
+log(a);
+log(b);
+log(rest);

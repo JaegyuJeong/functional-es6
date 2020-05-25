@@ -37,3 +37,5 @@ let m = new Map();
 m.set('a', 10);
 m.set('b', 20);
 log(map(([k, a]) => [k, a * 2], m));
+
+

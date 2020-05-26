@@ -1,7 +1,7 @@
 const log = console.log
 
 const products = [
-    {name: 반팔티', price: 15000},
+    {name: '반팔티', price: 15000},
     {name: '긴팔티', price: 20000},
     {name: '핸드폰케이스', price: 15000},
     {name: '후드티', price: 30000},
@@ -36,4 +36,4 @@ log(add(add(add(add(add(0,1),2),3),4),5));
 log(reduce(add, [1,2,3,4,5]));
 
 
-log(reduce((total_price, product) => total_price + produce.price, 0, products))
+log(reduce((total_price, product) => total_price + product.price, 0, products))

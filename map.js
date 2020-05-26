@@ -8,6 +8,8 @@ const products = [
     {name: '바지', price: 25000},
 ]
 
+
+
 // map
 
 const map = (f, iter) => {

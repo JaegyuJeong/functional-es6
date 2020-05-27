@@ -78,12 +78,26 @@ go(products,
     log
 );
 
-go(products,
-    filter(p => p.price < 20000),
+const total_price = pipe(
     map(p => p.price),
-    reduce(add),
+    reduce(add)
+)
+
+const base_total_price = predi => pipe(
+    filter(predi),
+    total_price);
+)
+
+go(
+    products,
+    base_total_price(p => p.price < 20000),
     log
 );
+
+go(
+    products,
+    base_total_price(p => p.price >= 20000),
+    log)
 
 // ## curry ==> 받은함수를 원하는 시점에 평가하는 함수
 

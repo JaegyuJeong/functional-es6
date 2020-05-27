@@ -45,3 +45,25 @@ log(
 log(reduce(
     add,
     filter(p => p >= 20000, map(p => p.price, products))))
+
+// # go, pipe
+
+const go = (...args) => reduce((a, f) => f(a), args);
+const pipe = (f, ...fs) => (...as) => go(f(...as), ...fs);
+
+go(
+    add(0, 1),
+    a => a + 10,
+    a => a + 100,
+    log
+);
+
+const f = pipe(
+    (a, b) => a + b,
+    a => a + 10,
+    a => a + 100
+);
+
+log(f(0,1))
+
+

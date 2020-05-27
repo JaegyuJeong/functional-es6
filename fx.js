@@ -1,21 +1,25 @@
 const log = console.log
-const map = (f, iter) => {
+
+const curry = f =>
+    (a, ..._) => _.length ? f(a, ..._) : (..._) => f(a, ..._);
+
+const map = curry((f, iter) => {
     let res = [];
     for (const a of iter) {
         res.push(f(a));
     }
     return res;
-}
+})
 
-const filter = (f, iter) => {
+const filter = curry((f, iter) => {
     let res = [];
     for (const a of iter) {
         if (f(a)) res.push(a);
     }
     return res;
-}
+})
 
-const reduce = (f, acc, iter) => {
+const reduce = curry((f, acc, iter) => {
     if (!iter) {
         iter = acc[Symbol.iterator]();
         acc = iter.next().value;
@@ -24,7 +28,7 @@ const reduce = (f, acc, iter) => {
         acc = f(acc, a);
     }
     return acc;
-}
+})
 
 
 const products = [
@@ -73,3 +77,21 @@ go(products,
     prices => reduce(add, prices),
     log
 );
+
+go(products,
+    filter(p => p.price < 20000),
+    map(p => p.price),
+    reduce(add),
+    log
+);
+
+// ## curry ==> 받은함수를 원하는 시점에 평가하는 함수
+
+
+const mult = curry((a, b) => a * b);
+log(mult(3)(2))
+
+const mult3 = mult(3);
+log(mult3(10));
+log(mult3(3));
+log(mult3(5));

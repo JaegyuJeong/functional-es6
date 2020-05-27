@@ -64,6 +64,12 @@ const f = pipe(
     a => a + 100
 );
 
-log(f(0,1))
+log(f(0, 1))
 
 
+go(products,
+    products => filter(p => p.price < 20000, products),
+    products => map(p => p.price, products),
+    prices => reduce(add, prices),
+    log
+);

@@ -80,7 +80,7 @@
     L.map = function* (f, iter) {
         for (const a of iter) yield f(a);
     };
-    var it = L.map(a => a + 10, [1, 2, 3]);
+    // var it = L.map(a => a + 10, [1, 2, 3]);
     // log(it.next());
     // log(it.next());
     // log(it.next());
@@ -88,7 +88,15 @@
 
 ### L.filter
 
-<script></script>
+<script>
+    L.filter = function* (f, iter) {
+        for (const a of iter) if (f(a)) yield a;
+    };
+    var it = L.filter(a=> a % 2, [1,2,3,4]);
+    log(it.next());
+    log(it.next());
+    log(it.next());
+</script>
 
 ### map, filter 계열 함수들이 가지는 결합 법칙
 - 사용하는 데이터가 무엇이든지

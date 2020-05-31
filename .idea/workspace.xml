@@ -25,8 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e80936a-4bad-4d8d-91e7-e71a519c2f98" name="Default Changelist" comment="iterator/iterable">
+      <change afterPath="$PROJECT_DIR$/rangemapfilter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/range.html" beforeDir="false" afterPath="$PROJECT_DIR$/range.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +73,14 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.range.html">
+  <component name="RunManager" selected="JavaScript Debug.rangemapfilter.html">
     <configuration name="장바구니.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/es6/장바구니.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="range.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/es6/range.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="filter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/filter.js" working-dir="$PROJECT_DIR$">
+    <configuration name="rangemapfilter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/es6/rangemapfilter.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="fx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/fx.js" working-dir="$PROJECT_DIR$">
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.rangemapfilter.html" />
         <item itemvalue="JavaScript Debug.range.html" />
         <item itemvalue="JavaScript Debug.장바구니.html" />
         <item itemvalue="Node.js.fx.js" />
         <item itemvalue="Node.js.reduce.js" />
-        <item itemvalue="Node.js.filter.js" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +113,7 @@
       <workItem from="1590293122718" duration="120000" />
       <workItem from="1590293389238" duration="853000" />
       <workItem from="1590312276396" duration="1197000" />
-      <workItem from="1590313795537" duration="20608000" />
+      <workItem from="1590313795537" duration="22357000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1590292657401</created>

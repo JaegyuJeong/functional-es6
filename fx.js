@@ -40,15 +40,6 @@ const reduce = curry((f, acc, iter) => {
 // ]
 
 const add = (a, b) => a + b;
-// log(
-//     reduce(
-//         add,
-//         map(p => p.price, filter(p => p.price < 20000, products)))
-// )
-//
-// log(reduce(
-//     add,
-//     filter(p => p >= 20000, map(p => p.price, products))))
 
 // # go, pipe
 
@@ -59,7 +50,6 @@ go(
     add(0, 1),
     a => a + 10,
     a => a + 100,
-    log
 );
 
 const f = pipe(
@@ -68,24 +58,11 @@ const f = pipe(
     a => a + 100
 );
 
-log(f(0, 1))
 
-//
-// go(products,
-//     products => filter(p => p.price < 20000, products),
-//     products => map(p => p.price, products),
-//     prices => reduce(add, prices),
-//     log
-// );
+
 
 
 // ## curry ==> 받은함수를 원하는 시점에 평가하는 함수
 
 
 const mult = curry((a, b) => a * b);
-log(mult(3)(2))
-
-const mult3 = mult(3);
-log(mult3(10));
-log(mult3(3));
-log(mult3(5));

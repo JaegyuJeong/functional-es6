@@ -1,13 +1,13 @@
 <script>
     console.log(
-        [1,2,3,4].map(function (val) {
+        [1, 2, 3, 4].map(function (val) {
             return val * 2;
         })
     );
 
     console.log(
-        [1,2,3,4].filter(function (val) {
-            return val %2;
+        [1, 2, 3, 4].filter(function (val) {
+            return val % 2;
         })
     )
 
@@ -17,8 +17,14 @@
         })
     )
 
-    _map([1,2,3,4], function (v) {
-        return v+10;
+    _map([1, 2, 3, 4], function (v) {
+        return v + 10;
     })
+
+    function _curry(fn) {
+        return function (a) {
+            return fn(a, b);
+        }
+    }
 
 </script>

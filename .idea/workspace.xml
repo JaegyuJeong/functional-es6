@@ -24,10 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e80936a-4bad-4d8d-91e7-e71a519c2f98" name="Default Changelist" comment="iterator/iterable">
-      <change afterPath="$PROJECT_DIR$/2.함수형으로 전환하기.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0e80936a-4bad-4d8d-91e7-e71a519c2f98" name="Default Changelist" comment="iterator/iterable" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +110,7 @@
       <workItem from="1590293122718" duration="120000" />
       <workItem from="1590293389238" duration="853000" />
       <workItem from="1590312276396" duration="1197000" />
-      <workItem from="1590313795537" duration="27404000" />
+      <workItem from="1590313795537" duration="27614000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1590292657401</created>
